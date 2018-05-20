@@ -1,0 +1,281 @@
+/*nav.dropdown ul > li ul  {width: 140%; left: -20%;}*/
+
+
+
+
+ol	{list-style-type: decimal; margin-left: 3em; margin-right: 3em;}
+ol li	{margin-top: 1em; margin-bottom: 1em;}
+
+
+.flat-quote	{font-size: 1.6em; line-height: 1.23em; padding: 20px 0; border-bottom: 1px solid #ffce5b; border-top: 1px solid #ffce5b; }
+
+/* Liberdade page */
+
+.liberdade-buttons .btn-liberdade 	{padding: 1.2em 2em; display: inline-block; font-size: 15px; }
+
+.liberdade-buttons .field-guide		{background: url(../images/icons/guide.png) no-repeat 20px center #009881; padding-left: 70px; width: 235px;}
+.liberdade-buttons .stories			{background: url(../images/icons/comment.png) no-repeat 20px center #009881; padding-left: 70px; width: 240px;}
+body.page-id-9267 .liberdade-buttons .stories {width: 280px;}
+
+.liberdade-buttons .prayer-guide	{background: url(../images/icons/flame.png) no-repeat 20px center #009881; padding-left: 70px; width: 190px;}
+body.page-id-9267 .liberdade-buttons .prayer-guide	{width: 240px;}
+
+.liberdade-buttons .prayer-guide-book	{background: url(../images/icons/book.png) no-repeat 20px center #009881; padding-left: 70px; width: 190px;}
+.liberdade-buttons .shirt			{background: url(../images/icons/shirt.png) no-repeat 20px center #009881; padding-left: 70px; width: 200px;}
+
+.liberdade-buttons .btn-liberdade:hover	{background-color: #FFCE5B;}
+
+.stats 				{margin-bottom: 2em;  -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; -ms-border-radius: 4px; border-radius: 4px; background: #009881;}
+
+.stats .stat .lead 	{line-height: 0; font-size: 1.0325em; font-weight: 800;}
+
+.stats .stat 		{padding: 40px 40px 10px 40px; line-height: 20px; font-size: 17px; border-right: 1px solid rgba(255,255,255,0.2); border-bottom: 1px solid rgba(255,255,255,0.2); color: #FFF; -webkit-font-smoothing: antialiased; height: 220px; text-align: center; font-weight: 600;}
+.stats .stat:last-child {padding: 25px 40px 10px 40px;}
+
+.stats .stat .fa 	{margin-bottom: 20px;}
+
+.stats .stat:hover 	{background: rgba(255,255,255,0.1);}
+
+
+@media only screen and (max-width: 435px) {
+.liberdade-buttons .field-guide,
+.liberdade-buttons .stories,
+.liberdade-buttons .prayer-guide,
+.liberdade-buttons .prayer-guide-book,
+.liberdade-buttons .shirt	{width: 100%; background-size: 26px auto; font-size: 12px; padding: 1em 2em 1em 60px;}
+ 
+body.page-id-9267 .social-icons,
+body.page-id-9011 .social-icons		{display: none; width: 80px; margin: 0 auto; margin-bottom: 13px;}
+ 
+}
+
+
+
+@media only screen and (min-width: 980px) {
+.lang-button	{font-size: 0.8em !important; position: absolute; right: 10px; top: 120px;}
+}
+
+
+
+.liberdade-intro					{font-size: 1.5em; margin-bottom:0;}
+.liberdade-intro span				{font-weight: 700; text-transform: uppercase; color: #009881; font-size: 0.9em; letter-spacing: 2px;}
+
+.liberdade-lead						{font-size: 2em; line-height: 1.2em; font-weight: 100; color:#009881;}
+
+body.page-id-9011 .highlight,
+body.page-id-9267 .highlight		{margin: 20px 0px; font-weight: 600; font-size: 1.4em;}
+
+body.page-id-9011 h3,
+body.page-id-9267 h3				{border: 5px solid;  color: #615C5C; display: inline-block; font-size: 1.5em; font-weight: 700; letter-spacing: 5px; margin: 0.5em 0 1.3em;    padding: 12px 20px 11px; text-transform: uppercase;}
+
+body.page-id-9011 .social-icons a span,
+body.page-id-9267 .social-icons a span 	{margin-right: 0; top: 3px;}
+
+
+@media only screen and (max-width: 660px) {
+.liberdade-lead			{font-size: 1.7em;}
+.stats .stat 			{height: auto !important; font-size: 16px; padding: 20px 10px !important;}
+}
+
+
+.liberdade-giving h2 				{font-size: 2.5em; font-weight: 600; letter-spacing: 0px;}
+
+.liberdade-giving a:hover					{opacity: .8 !important;}
+
+@media only screen and (max-width: 600px) {
+.liberdade-giving h2 				{font-size: 1.7em; padding:13px;}
+.liberdade-giving img				{height: 140px; margin-top: 20px; padding: 10px; width: 140px;}
+}
+
+
+.liberdade-video					{margin-bottom: -120px; top: -130px;}
+body.page-id-9011 header#main,
+body.page-id-9267 header#main		{max-height: 650px; min-height: 475px;}
+
+body.page-id-9011 .video-container,
+body.page-id-9267 .video-container 	{max-width: 650px;}
+
+
+@media only screen and (max-width: 925px) {
+.liberdade-video							{margin-bottom: -90px; top: -90px;}
+body.page-id-9011 header#main .title-img,
+body.page-id-9267 header#main .title-img 	{top:13%;}
+.stats .stat 		{padding: 25px 40px 10px 40px;  height: 200px;}
+}
+
+@media only screen and (max-width: 650px) {
+body.page-id-9011  header#main .title-img,
+body.page-id-9267 header#main .title-img 	{width:100%;}
+
+.liberdade-intro 							{font-size: 1.2em;}
+body.page-id-9011 .highlight,
+body.page-id-9267 .highlight 				{font-size: 1.1em; margin: 5px 0;}
+
+.liberdade-lead 							{font-size: 1.5em;}
+body.page-id-9011 .lead,
+body.page-id-9267 .lead						{font-size: 1.1em;}
+
+body.page-id-9011 h1,
+body.page-id-9267 h1						{font-size: 2.5em}
+}
+
+@media only screen and (max-width: 500px) {
+body.page-id-9011 header#main .title-img,
+body.page-id-9267 header#main .title-img 	{width:100%; padding: 10px;}
+
+body.page-id-9011 header#main,
+body.page-id-9267 header#main	 		{min-height: 425px; background-position: center 0;}
+
+body.page-id-9011 .btn-primary-flat,
+body.page-id-9011 .btn-primary-outline,
+body.page-id-9267 .btn-primary-flat,
+body.page-id-9267 .btn-primary-outline					{font-size: 1.2em;}
+
+body.page-id-9011 .btn-sm,
+body.page-id-9267 .btn-sm 								{font-size: 15px;}
+
+body.page-id-9011 h3,
+body.page-id-9267 h3				{border: 3px solid; font-size: 1em; padding: 12px 13px 11px;}
+
+body.page-id-9011 .marg-tb-lg,
+body.page-id-9267 .marg-tb-lg		{margin-top: 50px; margin-bottom: 50px;}
+
+body.page-id-9011 .pad-tb-lg,
+body.page-id-9267 .pad-tb-lg		{padding-top: 50px; padding-bottom: 50px;}
+
+.brazil-map							{padding: 0 0 10px 0;}
+
+}
+
+
+
+
+
+/* Causeview pages */
+body.page-template-template-causeview-php header#main				{height: 420px;}
+body.page-template-template-causeview-php header#main .title-img 	{max-width: 510px; top: 16%;}
+
+
+
+@media only screen and (max-width: 655px) {
+body.page-template-template-causeview-php header#main				{height: 280px;}
+body.page-template-template-causeview-php header#main .title-img	{width: 80%; top: 12%; min-width: 300px;}
+
+body.page-template-template-causeview-php h1 						{font-size: 2em; letter-spacing: 2px;}
+
+}
+
+
+
+/* Footer */
+
+.footer-seals  		{background: url("../images/footer_seals.png") no-repeat center top; padding-top: 40px; margin-bottom: 30px; background-size: 75px auto; height: 37px; text-decoration: none; color: #FFFFFF; font-size: 1.1em; font-weight: 500; letter-spacing: 0; text-transform: none; display: inline-block;}
+
+
+
+/* Abolition Summit */
+
+.abolition-summit-main-synopsis	{font-weight: 700; letter-spacing: 0.27em; padding: 15px; line-height: 1.6em; font-size: 0.71em;}
+.abolition-summit-main-date		{font-size: 1.6em;}
+.abolition-summit-main-city		{font-size: .7em; font-weight: 600; letter-spacing: 0.37em; margin-top: 7px; color: #fff; text-transform: uppercase;}
+
+
+.as-breakout-meta .breakout-day		{border: 2px solid; padding: 3px 11px 3px 13px; font-weight: 600;}
+
+.btn-primary-flat.abolition-summit:hover	{color: #fff;}
+.btn-primary-outline.abolition-summit:hover {color: #fff; border-color: #fff;}
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+.abolition-summit-main-synopsis	{font-size: 0.65em;}
+.abolition-summit-main-date		{font-size: 1.5em;}
+.abolition-summit-main-city		{font-size: 0.65em;}
+
+h5.breakout-title				{font-size: 1.6em;}
+
+.abolition-summit-2014-nav ul li a	{padding: 3px 12px; font-size: .85em;}
+.abolition-summit-2014-schedule		{padding-top: 0 !important;}
+
+#home-main-features #abolition-summit {font-size: 0.95em;}
+
+}
+
+@media only screen and (max-width: 500px) {
+body.page-id-10058 .content,
+body.page-id-10058 .pad-lr	{padding-left: 0; padding-right: 0;}
+}
+
+
+
+
+
+
+
+/* 2014 EOY landing page */
+body.page-id-10235 header#main				{height: 450px; border-bottom: 10px solid #ffce5b;}
+body.page-id-10235 header#main .title-img 	{top: 12%;}
+
+body.page-id-10235 .lead span				{text-transform: uppercase; letter-spacing: 3px; font-size: .81em; font-weight: 700; color: #000;}
+
+
+body.page-id-10235 .abolitionist:hover h5		{color: #ffce5b; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; -ms-transition: all 0.3s ease; transition: all 0.3s ease-in-out;}
+
+body.page-id-10235 .abolitionist:hover img 	{border: 8px solid #ffce5b; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; -ms-transition: all 0.3s ease; transition: all 0.3s ease-in-out;}
+  
+body.page-id-10235 .abolitionist				{-webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; -ms-transition: all 0.3s ease; transition: all 0.3s ease-in-out;}  
+
+
+body.page-id-10235 h3			{border: 4px solid; color: #615C5C; display: inline-block; font-size: 1.2em; font-weight: 700; letter-spacing: 5px; margin: 0.5em 0 1.3em; padding: 12px 18px 11px; text-transform: uppercase;}
+
+@media only screen and (max-width: 768px) {
+body.page-id-10235 header#main .title-img	{max-width: 480px; top: 13%;}
+}
+
+
+@media only screen and (max-width: 655px) {
+body.page-id-10235 header#main				{height: 280px;}
+body.page-id-10235 header#main .title-img	{width: 80%; top: 12%; min-width: 320px;}
+
+body.page-id-10235 h1 						{font-size: 2em; letter-spacing: 2px;}
+
+body.page-id-10235 h3 					{border: 3px solid; font-size: 1em; letter-spacing: 3px; padding: 10px 14px 9px;}
+
+body.page-id-10235 img.round			{max-width: 120px;}
+body.page-id-10235 .lead					{font-size: 1.12em; line-height: 1.4em;}
+
+body.page-id-10235 .marg-tb 			{margin-top: 20px; margin-bottom: 20px;}
+body.page-id-10235 .pad-tb-sm 			{padding-top: 10px; padding-bottom: 10px;}
+
+body.page-id-10235 .btn-primary-flat,
+body.page-id-10235 .btn-primary-outline					{font-size: 1.2em;}
+
+body.page-id-10235 .social-icons		{display: none;}
+
+}
+
+
+/* RallyBound */
+
+.btn-fundraise		{background-color: #009881; color: #fff;}
+
+body.page-id-10409 .highlight	{color: #009881;}
+
+
+#fundraising-ideas button.clicked	{background-color: #009881; color: #fff;}
+#fundraising-options div	{display: none;}
+
+#fundraising-options h3		{font-size: 2.7em; font-weight: 300; color: #009881; margin: 0.25em 0;}
+#fundraising-options p		{margin-bottom: 20px; line-height: 23px;}
+#fundraising-options li		{margin-top: .6em; margin-bottom: .6em;}
+#fundraising-options 		{text-align: left;}
+
+button.btn-primary-flat,
+button.btn-primary-outline	{border:none; cursor: pointer; font-family: "proxima-nova", Helvetica, Arial, sans-serif;}
+
+
+
+body.page-id-11057 header#main .title-img	{max-width: 690px;   top: 14%;}
+form.post-password-form {width: 50%; margin:50px auto 120px auto;}
